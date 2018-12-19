@@ -11,7 +11,7 @@ import sys, os, random
 
 num = str(random.randint(1,99))
 imagePath =os.path.join(sys.path[0], 'mywechat.jpg')
-savePath=os.path.join(sys.path[0], '0000-01-result-mywechat_number.jpg')
+savePath=os.path.join(sys.path[0], 'demo0000-01-result-mywechat_number.jpg')
 
 def add_num(im, wDraw, hDraw):
     font =  ImageFont.truetype('arial.ttf', 30)

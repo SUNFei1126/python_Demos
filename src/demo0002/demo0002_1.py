@@ -4,7 +4,7 @@
 
 '''
  Created by sunyufei on 2018/12/7.
- 将 0001 题生成的 200 个激活码（或者优惠券）保存到 MySQL 关系型数据库中
+ 将 demo0001 题生成的 200 个激活码（或者优惠券）保存到 MySQL 关系型数据库中
 '''
 import random, string
 import pymysql

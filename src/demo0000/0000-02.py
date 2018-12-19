@@ -16,7 +16,7 @@ def add_num(img):
     width, height = img.size
     draw.text((width-40, 0), num, font=myfont, fill=fillcolor)
     # draw.text((width-40, 0), "3", (256, 0, 0), font=fillcolor)
-    img.save('0000-02-result-mywechat.jpg', 'jpeg')
+    img.save('demo0000-02-result-mywechat.jpg', 'jpeg')
 
     return 0
 
